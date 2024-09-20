@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible", Content="IE=edge">
+		<meta name="viewport", Content="width=device-width, initial-scale=1.0">
+		<meta name="description", Content="HTML practice">
+		<meta name="keywords", Content="HTML, Programming Language">
+		<meta name="author", Content="Sadiqul Islam Shakib">
+		
+		<title>HTML Practice</title>
+		
+	</head>
+	<body>
+	<h1 align="center"><b>A Brief History of HTML</b><h1><hr/>
+	<h2 align="left">1993 - Present</h3>
+	
+	<p align="justify">The <sup>first</sup> version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was <b>HTML 4.01</b>, which became an official standard in December 1999.</p>
+	
+	<p align="right">Another version, XHTML, was a rewrite of HTML as an XML language. XML is a standard markup language that is used to create other markup languages.</p>
+	
+	</body>
+
+
+</html>

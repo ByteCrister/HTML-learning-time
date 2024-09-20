@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css_13.css">
+</head>
+
+<body class="body">
+    <div id="div_form"> 
+
+        <form>
+            <legend>Registration Form</legend>
+        <div>
+            <label for="firstname">First Name : </label>
+            <input type="text" name="first_name" id="first_name" placeholder="your name" required><br>
+        </div>
+
+        <div>
+            <label for="lastname">Last Name : </label>
+            <input type="text" name="last_name" id="last_name" required ><br>
+        </div>
+
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" placeholder="enter your email" required><br>
+        </div>
+
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" required><br>
+        </div>
+        
+        <div>
+            <label for="dob">Date of Birth : </label>
+            <input type="date" name="dob" id="dob"><br>
+        </div>
+        
+        <div>
+            <label for="photo">Choose a photo : </label>
+            <input type="file" name="photo" id="photo"><br>
+        </div>
+        
+        <div>
+            <label for="mobile_number">Mobile Number : </label>
+            <input type="mobile_number" name="mobile_number" id="mobile_number" placeholder="phone number"><br>
+        </div>
+        
+        <div>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" id="gender" value="Male">Male
+            <input type="radio" name="gender" id="gender" value="Female">Female
+            <input type="radio" name="gender" id="gender" value="Other">Other's <br> <!--use value attribute for more precise information -->
+        </div>
+        
+        <div>
+            <label for="religion">Religion : </label>
+            <input type="checkbox" name="muslim" id="muslim" value="Islam">Islam
+            <input type="checkbox" name="hindu" id="hindu" value="Hindu">Hindu
+            <input type="checkbox" name="Other" id="Other" value="Other">Other's <br>
+        </div>
+
+        <div>
+            <label for="department">Department : </label>
+            <select name="department" id="department" required>
+                <option value="eee">EEE</option>
+                <option value="llb">LLB</option>
+                <option value="cse" selected>CSE</option>   <!--selected attribute used for showing which one is in first-->
+                <option value="llm">LLM</option>
+                <option value="bba">BBA</option>
+                <option value="english">English Literatures</option>
+            </select>
+        </div> <br>
+
+        <div>
+            <label for="massage">Massage : </label><br>
+            <textarea name="massage" id="massage" cols="40" rows="10"></textarea> <br>
+        </div>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+        
+    </form>
+</div>
+    
+</body>
+
+</html>

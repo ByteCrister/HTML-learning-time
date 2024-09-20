@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table using css tags</title>
+
+    <style>
+
+        table{
+            background-color: rgb(255, 253, 120);
+            border: 2px solid black;
+            text-align:center;
+            height: 500px;
+            width: 800px;
+            border-spacing: 10px;
+            /* border-collapse:collapse; */
+        }
+        
+        th,td{
+            border: 2px solid black;
+            padding:15px
+        }
+
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>This a table</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>13</td>
+                <td>Shakib</td>
+                <td>21</td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td>Niaz</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>49</td>
+                <td>Anik</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <!-- <td rowspan="2">End</td> -->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>HTML tutorial class code</title>
+ </head>
+	<body style="background-color:yellow">
+	
+	<h4 style="text-align:right; color:red">I'm &nbsp;&nbsp; Sadiqul Islam Shakib<h4>
+	<p style="text-align:center; color:blue"><b>&copy;Shakib</b></p>
+	
+	<h2 style="text-align:center; color:red"> &copy; &lt;Sadiqul Islam Shakib&gt; </h2>
+	
+	<pre>     This code 
+	      is 
+		for HTML
+	codders. And
+	   This is an 
+	 example of "pre" Tag</pre>
+	
+	</body>
+</html>

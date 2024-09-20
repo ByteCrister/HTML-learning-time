@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" Content="IE=edge">
+	<meta name="viewport" Content="width=device-width, initial-scale=1.0">
+	
+	<title>Tutorial - 14 : Html style and colour</title>
+	
+  </head>
+	
+	<body style="background-color:yellow">
+	
+	<h1 align="center">Bangladesh</h1>
+	<h1 style="text-align:center; color:dark red">Bangladesh</h1>
+	
+	</body>
+	
+
+</html>
